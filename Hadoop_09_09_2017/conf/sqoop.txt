@@ -1,0 +1,37 @@
+1. extract zip & copy sqoop folder inside /usr/local
+--------------------------------------------------------------------------------
+
+2. make entry in bashrc file :
+	
+	export SQOOP_HOME=/usr/local/sqoop
+	export PATH=$PATH:$SQOOP_HOME/bin
+	
+put mysql-connector-jdbc jar in $SQOOP_HOME/lib
+	
+thats it...
+--------------------------------------------------------------------------------
+check import command
+
+	sqoop import \
+	--connect jdbc:mysql://localhost/ebooks \
+	--username root \
+	--password "123" \
+	--table eBooks --m 1
+	--target-dir /output
+--------------------------------------------------------------------------------
+table must already be present
+export command
+	
+	
+	sqoop export \
+	--connect jdbc:mysql://localhost/ebooks \
+	--username root \
+	--password "" \
+	--table eBooks \
+	--export-dir /user/abhishek/eBooks/part-m-00000
+
+
+
+
+
+	

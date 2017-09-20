@@ -1,0 +1,32 @@
+1. extract zip & copy hive folder inside /usr/local
+--------------------------------------------------------------------------------
+
+2. make entry in bashrc file :
+	
+	export HIVE_HOME=/usr/local/hive
+	export PATH=$PATH:$HIVE_HOME/bin
+	
+	set hadoop home in $HIVE_HOME/bin/hive-config.sh
+
+4. $ hive version
+
+5. $ hdfs dfs -mkdir /tmp
+   $ hdfs dfs -mkdir /user/hive/warehouse
+   $ hdfs dfs -chmod 777 /tmp
+   $ hdfs dfs -chmod 777 /user/hive/warehouse
+
+7. $ hive
+
+--------------------------------------------------------------------------------
+
+create table :
+	CREATE TABLE ebooks ( uid int, name String, hitcount int)
+	ROW FORMAT DELIMITED
+	FIELDS TERMINATED BY ','
+	LINES TERMINATED BY '\n'
+	STORED AS TEXTFILE;
+load data :
+	load data local inpath 'data' into table ebooks;
+	
+Agregation :
+	select hitcount from ebooks where uid=17 order by hitcount asc;

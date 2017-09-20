@@ -1,0 +1,5 @@
+Apache Hadoop	- hadoop-2.7.4.tar.gz
+
+Apache Hive		- apache-hive-1.2.1-bin.tar.gz
+
+Apache Sqoop	- sqoop-1.4.6.bin__hadoop-2.0.4-alpha.tar.gz

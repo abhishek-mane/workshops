@@ -1,0 +1,156 @@
+1,Android Application Development For Dummies,Donn Felker,Independent software development consultant,832
+2,Android Wireless Application Development,Lauren Darcey,Developers Library,361
+3,professional Android 4 Application Development,Reto Meier,Wrox Publication,671
+4,Assembly Language Step by Step - Programming with Linux,Jeff Duntemann,WILEY,386
+5,Computer System Architecture,M Morris Mano,Pearson Edition,855
+6,Digital Design,M Morris mano,Pearson Edition,716
+7,Intel386 DX Microprocessor,Intel,Manual by Intel,440
+8,Intel 64 & IA-32 Architectures Software Developers Menual,Intel,Manual by Intel,852
+9,Intel Xeon Phi Coprocessor Architecture and Tools,Rezaur Ranman,Apress Open,681
+10,Introduction to 64 Bit Intel Assembly Language Programming for Linux,Ray Seyfarth,Unknown,648
+11,Big Data Analytics with R and Hadoop,Vignesh Prajati,PACKT Publication,516
+12,Modern Database management,Jeffrey A. Hoffer,Pearson Publication,872
+13,Database System Concepts Sixth Edition,Abraham Silberschatz,McGraw-Hill Publication,580
+14,Database Systems Design Implementation & Management 10e,Carlos Coronel,Course Technology,658
+15,Database Systems Design Implementation & Management 9e,Carlos Coronel,Course Technology,922
+16,Data Mining - Concepts and Techniques,Jiawei Han,Morgan Kaufmann Publication,402
+17,Hadoop in Action,Chuck Lam,Manning Publication,308
+18,Big data: The next frontier for Innovation, Competition and Productivity,James Manyika,McKinsey&Company,629
+19,MongoDB Manual,MongoDB,MongoDB,669
+20,MongoDB: The Definitive Guide, 2e,Kristina Chodorow,O'REILLY Publication,764
+21,Data Structure And Algorithms In C++ 2e,Adam Drozdek,Brooks/Cole Publication,809
+22,Algorithm Design,JON KLEINBERG,Pearson Edition,472
+23,Data Structures,Manual,Unknown,316
+24,Data Structures, Algorithms and Applications In C++,Sartraj Sahani,Universities Press,542
+25,DSA: Data Structure & Algorithms,Granville Barnett,DotNetSlackers,980
+26,DSPS MCQs,-,-,906
+27,Problem Solving And Programming Concepts 9e,Maureen Sprankle,Prentice Hall,975
+28,Fundamentals of Digital Logic and Microcomputer Design 5e,M. RAFIQUZZAMAN,WILEY-INTERSCIENCE,414
+29,Fundamentals Of Digital Logic With VHDL Design,Brown & Vranesic,McGraw-Hill Publication,710
+30,Digital Evidence and Computer Crime - Third Edition,Eoghan Casey,Academic Press,792
+31,Computer Networking: A.TopDown Approach featuring the internet 6e,Kurose & Ross,Pearson Edition,783
+32,Data Communications and Networking 4e,Behrouz A.Forouzan,McGraw-Hill Publication,541
+33,Wireless Sensor Networks: Technology, Protocols & Applications,Kazem, Daniel & Taieb,Wiley-Interscience,853
+34,Protocols And Architectures For Wireless Sensor Networks,Holger Karl,Wiley Publications,453
+35,Wireless Networking Complete,Zheng Zhao Tipper,Morgan Kaufmann,628
+36,Wireless Networks and Mobile Computing,Ivan Stojmenovic,WILEY-INTERSCIENCE PUBLICATION,708
+37,Wireless Sensor Network,Robert Faludi,OREILLY  Publication,870
+38,Wireless Sensor Networks,Feng Zhao,Morgan Kaufmann,768
+39,Introduction to Automata Theory Languages and Computation,John Hopcroft,Pearson Edition,560
+40,Introduction to Languages & Theory of Computation,John Martin,McGraw-Hill Publication,550
+41,Introduction to The Theory of Comptation,Micheal Sipser,Thomson Cource Technology,416
+42,Theory of Computer Science: Automata, Languages & Computation,K.L.P Mishra,Prentice Hall,777
+43,Beginning the Linux Command Line,Sander van Vugt,Apress,421
+44,Modern Operating Systems 3e,Andrew Tanenbaum,Unknown,696
+45,Operating System Concepts 8e,Silberschatz Galvin & Ganne,Unknown,434
+46,The Design of Unix Operating System,Maurice Bach,Prentice Hall,343
+47,UNIX and Linux System Administration Handbook 4e,Evi Nemeth Snyder Hein Whaley,Prentice Hall,798
+48,Beginning HTML and CSS,Rob Larsen,Wrox Publication,443
+49,Beginning JavaScript and CSS Development with jQuery,Richard York,Wrox Publication,673
+50,Beginning jQuery,Jack Franklin,Apress,467
+51,Beginning JSP JSF and Tomcat 2nd Edition,Giulio Zambon,Apress,908
+52,Beginning PHP and MySQL 4th Edition,W. Jason Gilmore,Apress,481
+53,Build Your Own Database Driven Web Site Using PHP & MySQL 4th Edition,KEVIN YANK,SitePoint,639
+54,JavaScript for PHP Developers,Stoyan Stefanov,OREILLY,924
+55,jQuery For Dummies,Lynn Beighley,Wiley Publication,724
+56,Learning PHP MySQL JavaScript CSS & HTML5 3rd Edition,Robin Nixon,OREILLY,618
+57,PHP & MySQL Web Development All-in-One Desk Reference For Dummies,Janet Valade,Wiley Publication,830
+58,PHP and MySQL 24-Hour Trainer,Andrea Tarr,Wrox Publication,698
+59,PHP and MySQL For Dummies 3rd Edition,Janet Valade,Wiley Publication,733
+60,PHP and MySQL For Dummies 4th Edition,Janet Valade,Wiley Publication,539
+61,PHP MySQL JavaScript & HTML5 All-in-One For Dummies,Steven Suehring & Janet Valade,Wiley Publication,490
+62,Sams Teach Yourself PHP MySQL and Apache All in One 5e,Julie Meloni,SAMS,515
+63,Head First Ajax,Rebecca M. Riordan,OREILLY,781
+64,Head First Mobile Web,Lyza Danger Gardner,OREILLY,342
+65,Head First JavaScript,Michael Morrison,OREILLY,669
+66,Pro Windows Phone App Development 3rd Edition,Falafel Software,Apress,408
+67,Absolute Java Fifth Edition,Walter Savitch,Pearson Edition,751
+68,Beginning Programming With Java For Dummies 2nd Edition,Barry Burd,Wiley Publication,539
+69,Beginning Programming with Java For Dummies 3rd Edition,Barry Burd,Wiley Publication,877
+70,Bruce Eckel Thinking In Java 4th Edition,Bruce Eckel,MindView,310
+71,C++ Complete Reference 3rd Ed,Herbert Schildt,Osborne Publication,789
+72,C++ Programming From Problem Analysis to Program Design 5e,D.S. Malik,Course Technology,993
+73,C Sharp Dot net Book,Eric Butow & Tommy Ryan,MaranGraphics,787
+74,Object Oriented Programming with C++,E Balagurusamy,McGrow-Hill Publication,911
+75,Head First C# 2nd Edition,Andrew Stellman,OREILLY,689
+76,Introduction to Design Patterns in C++ with Qt, 2e,Alan Ezust & Paul Ezust,Prentice Hall,922
+77,Introduction to Java Programming 8th Edition,Y. Daniel Liang,Prentice Hall,955
+78,Java 7 for Absolute Beginners,Jay Bryant,Apress,486
+79,Java A Beginners Guide 4th Edition,Herbert Schildt,McGrow-Hill Publication,365
+80,Java Programming From Problem Analysis to Program Design,D.S. Malik,Course Technology,627
+81,Java for Beginners,Riccardo Flask,Java,654
+82,Learning Java 4th Edition,Patrick Niemeyer & Daniel Leuck,OREILLY,973
+83,Let Us C,Yashwant Kanetkar,BPB Publication,809
+84,Object-Oriented Programming in C++,Robert Lafore,Macmillan Computer Publishing,994
+85,Sams Teach Yourself Java in 24 hours 6e,Rogers Cadenhead,SAMS,897
+86,Teach Yourself Java in 21 days,Laura Lemay & Charles Perkins,SAMS,532
+87,The Book of Qt 4,DANIEL MOLKENTIN,Open Source Press,612
+88,Android Tutorial,Tutorials Point,Tutorials Point,727
+89,Android Advanced Tutorial,Tutorials Point,Tutorials Point,931
+90,Apache ANT Tutorial,Tutorials Point,Tutorials Point,344
+91,Assembly Language Tutorial,Tutorials Point,Tutorials Point,966
+92,Bootstrap Tutorial,Tutorials Point,Tutorials Point,420
+93,Cloud Computing Tutorial,Tutorials Point,Tutorials Point,560
+94,Computer Fundamental Tutorial,Tutorials Point,Tutorials Point,747
+95,Computer Logical Organization Tutorial,Tutorials Point,Tutorials Point,463
+96,Computer Programming Tutorial,Tutorials Point,Tutorials Point,930
+97,C++ Tutorial,Tutorials Point,Tutorials Point,856
+98,C Programming Tutorial,Tutorials Point,Tutorials Point,914
+99,C# Tutorial,Tutorials Point,Tutorials Point,468
+100,CSS Tutorial,Tutorials Point,Tutorials Point,732
+101,Data Communication and Computer Network Tutorial,Tutorials Point,Tutorials Point,925
+102,Database Management System [DBMS] Tutorial,Tutorials Point,Tutorials Point,958
+103,Design Patterns in Java Tutorial,Tutorials Point,Tutorials Point,724
+104,Developers Best Practices Tutorial,Tutorials Point,Tutorials Point,712
+105,Data Mining Tutorial,Tutorials Point,Tutorials Point,869
+106,Data Warehouse Tutorial,Tutorials Point,Tutorials Point,412
+107,E-Commerce Tutorial,Tutorials Point,Tutorials Point,633
+108,Enterprise Java Beans (EJB) Tutorial,Tutorials Point,Tutorials Point,823
+109,Adobe Flex Tutorial,Tutorials Point,Tutorials Point,599
+110,Git Tutorial,Tutorials Point,Tutorials Point,698
+111,Google Web Toolkit Tutorial,Tutorials Point,Tutorials Point,450
+112,Hibernate Tutorial,Tutorials Point,Tutorials Point,954
+113,HTML 5 Tutorial,Tutorials Point,Tutorials Point,671
+114,HTML Tutorial,Tutorials Point,Tutorials Point,959
+115,HTTP Tutorial,Tutorials Point,Tutorials Point,947
+116,iBATIS Tutorial,Tutorials Point,Tutorials Point,567
+117,iOS Tutorial,Tutorials Point,Tutorials Point,490
+118,IPv4 Tutorial,Tutorials Point,Tutorials Point,558
+119,IPv6 Tutorial,Tutorials Point,Tutorials Point,995
+120,JavaMail API Tutorial,Tutorials Point,Tutorials Point,420
+121,Javascript Tutorial,Tutorials Point,Tutorials Point,602
+122,Java Tutorial,Tutorials Point,Tutorials Point,960
+123,JDBC Tutorial,Tutorials Point,Tutorials Point,541
+124,Java Server Faces (JSF) Tutorial,Tutorials Point,Tutorials Point,863
+125,JSON Tutorial,Tutorials Point,Tutorials Point,707
+126,Java Server Pages Tutorial,Tutorials Point,Tutorials Point,704
+127,JUnit Tutorial,Tutorials Point,Tutorials Point,792
+128,Log4j Tutorial,Tutorials Point,Tutorials Point,562
+129,Apaches Maven Tutorial,Tutorials Point,Tutorials Point,618
+130,MIS Tutorial,Tutorials Point,Tutorials Point,960
+131,MongoDB Tutorial,Tutorials Point,Tutorials Point,994
+132,MySQL Tutorial,Tutorials Point,Tutorials Point,542
+133,Objective-C Tutorial,Tutorials Point,Tutorials Point,917
+134,Operating System Tutorial,Tutorials Point,Tutorials Point,718
+135,Perl Tutorial,Tutorials Point,Tutorials Point,955
+136,PHP Tutorial,Tutorials Point,Tutorials Point,786
+137,PL/SQL Tutorial,Tutorials Point,Tutorials Point,830
+138,PostgreSQL Tutorial,Tutorials Point,Tutorials Point,587
+139,Python Tutorial,Tutorials Point,Tutorials Point,608
+140,QTP Tutorial,Tutorials Point,Tutorials Point,429
+141,Ruby Tutorial,Tutorials Point,Tutorials Point,986
+142,Scala Tutorial,Tutorials Point,Tutorials Point,758
+143,Software Development Life Cycle (SDLC),Tutorials Point,Tutorials Point,382
+144,SEO Tutorial,Tutorials Point,Tutorials Point,656
+145,Servlets Tutorial,Tutorials Point,Tutorials Point,716
+146,Software Testing Tutorial,Tutorials Point,Tutorials Point,329
+147,Spring Framework 3.1 Tutorial,Tutorials Point,Tutorials Point,924
+148,SQLite Tutorial,Tutorials Point,Tutorials Point,907
+149,SQL Tutorial,Tutorials Point,Tutorials Point,587
+150,Apache Struts 2 Tutorial,Tutorials Point,Tutorials Point,918
+151,SVN Tutorial,Tutorials Point,Tutorials Point,327
+152,TestNG Tutorial,Tutorials Point,Tutorials Point,890
+153,UML Tutorial,Tutorials Point,Tutorials Point,878
+154,Unix Tutorial,Tutorials Point,Tutorials Point,568
+155,vb.Net Tutorial,Tutorials Point,Tutorials Point,752
+156,VBScript Tutorial,Tutorials Point,Tutorials Point,584
