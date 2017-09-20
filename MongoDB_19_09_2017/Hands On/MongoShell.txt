@@ -1,0 +1,166 @@
+* CREATE DATABASE - use DB
+* DROP DATABASE - db.dropDatabase()
+* CREATE COLLECTION - db.createCollection('NAME') | db.NAME.operation
+* DROP COLLECTION - db.COLLECTION.drop()
+
+----------------------
+ CRUD :-
+----------------------
+ 
+* INSERT - 
+	db.COLLECTION_NAME.insert(document) // one at time
+	db.COLLECTION_NAME.insert([d1, d2, d3]) // multiple at time
+	db.COLLECTION_NAME.insertOne(document)
+	db.COLLECTION_NAME.insertMany([d1,d2,d3,d4])
+
+* READ/QUERY - 
+	db.COLLECTION.find(
+		{age : {$lt : 18}},
+		{name: 1, _id: 0}
+	)
+	
+	db.COLLECTION.findOne(filter, projection) // returns first element from natural order
+
+* UPDATE - 
+	db.COLLECTION.update(
+		{roll_no : 45},
+		{
+			$set : {
+				name : 'Abhishek Mane'
+			}
+		},
+		{
+			multi : true
+		}
+	)
+
+
+* SAVE :-
+	creates new document OR update existing
+	
+	db.COLLECTION_NAME.save(
+		{
+			name : 'Tushar'
+		}
+	)
+	
+	db.COLLECTION_NAME.save({
+		_id : ObjectId("59be742b8607d8b7387bff96"),
+		newKey : 'newValue'
+	})
+	
+* DELETE :-
+	db.COLLECTION_NAME.remove(
+		{
+			roll_no : {$lt : 20}
+		},
+		
+		{
+			justOne : true
+		}
+	)
+	
+* PROJECTION - 
+	db.COLLECTION.find({},
+		{
+			name : 1,
+			_id : 0
+		}
+	)
+	
+--------------------------------
+Logical Query Operators
+--------------------------------
+$and, $or, $not, $nor
+
+	db.COLLECTION.find({
+		$and : [
+			{
+				roll_no : 1,
+			},
+			{
+				
+			}
+		]
+	})
+	
+	
+--------------------------------
+Comparison query Operators
+--------------------------------
+$eq		Matches values that are equal to a specified value.
+$gt		Matches values that are greater than a specified value.
+$gte	Matches values that are greater than or equal to a specified value.
+$in		Matches any of the values specified in an array.
+$lt		Matches values that are less than a specified value.
+$lte	Matches values that are less than or equal to a specified value.
+$ne		Matches all values that are not equal to a specified value.
+$nin	Matches none of the values specified in an array.
+--------------------------------
+MORE Functions
+--------------------------------
+
+* LIMIT -
+	db.COLLECTION.find().limit(2)
+
+* SKIP - 
+	db.COLLECTION.find().limit(2).skip(4)
+
+* COUNT - 
+	db.COLLECTION.count()
+
+* SORT -
+	db.COLLECTION.find().sort({KEY : 1}) // 1 for asc & -1 for des
+	
+* PRETTY - 
+	db.COLLECTION.find().pretty()
+
+------------------------------------
+INDEXING
+------------------------------------
+Indexes support the efficient execution of queries in MongoDB. Without indexes, MongoDB must perform a collection scan, i.e. scan every document in a collection, to select those documents that match the query statement. If an appropriate index exists for a query, MongoDB can use the index to limit the number of documents it must inspect.
+
+Good Example - https://docs.mongodb.com/manual/indexes/
+
+	db.COLLECTION.ensureIndex({
+		roll_no : 1
+	})
+	
+
+-------------------------------------
+Aggregation
+-------------------------------------
+Aggregations operations process data records and return computed results. Aggregation operations group values from multiple documents together, and can perform a variety of operations on the grouped data to return a single result. In SQL count(*) and with group by is an equivalent of mongodb aggregation.
+
+	db.COLLECTION.aggregate([
+		{ $match : {status : 'A'} },			<-------- $match stage
+		{ $group : 								<-------- $group stage
+			{
+				_id: '$cust_id', 
+				total : {$sum : '$amount'}
+			}
+		}
+	])
+	
+	
+	
+---------------------------------------
+MapReduce
+---------------------------------------
+db.orders.insert( [ { cust_id : 'A123', amount : 500, status : 'A' }, { cust_id : 'A123', amount : 250, status : 'A' }, { cust_id : 'B212', amount : 200, status : 'A' }, { cust_id : 'A123', amount : 300, status : 'D' } ] )
+
+
+var map = function(){
+...  emit(this.cust_id, this.amount)
+... }
+
+
+var reduce = function(key, values){
+...  return Array.sum(values)
+... }
+
+
+db.orders.mapReduce(map, reduce, {
+...   query : { status : 'A' },
+...   out : 'order_totals'
+... })

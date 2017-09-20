@@ -1,0 +1,29 @@
+db.books.aggregate(
+	[
+		{
+			$match : {
+				categories : {
+					$in : [
+						'Object-Oriented Programming',
+						'Programming'
+					]
+				}
+			}
+		},
+		{
+			$group : {
+				_id : '$status',
+				total_page_count : {
+					$sum : '$pageCount'
+				}
+			}
+		},
+		{
+			$project : {
+				status : '$_id',
+				total_page_count : '$total_page_count',
+				_id : 0
+			}
+		},
+	]
+)
