@@ -1,0 +1,43 @@
+package main
+
+
+Numbers=>
+
+	+----------+
+	| Integers |
+	+----------+
+	
+			uint8		int8		byte
+			uint16		int16
+			uint32		int32		rune
+			uint64		int64
+
+
+			uint		int		uintptr
+
+	+--------+
+	| Floats |
+	+--------+
+
+			float32
+			float64
+	
+	+-----------------+\\\
+	| Complex Numbers |>>>>
+	+-----------------+///
+
+			complex64
+			complex128
+
+	+--------
+	| Booleans
+	+--------
+
+			bool = true/false
+
+STrings=>
+
+
+		string - array of characters(character respresented by byte)
+
+		string literals double quotes & back ticks
